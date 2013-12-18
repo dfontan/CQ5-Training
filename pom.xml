@@ -350,6 +350,12 @@
 				<scope>provided</scope>
 			</dependency>
 			<dependency>
+	            <groupId>com.day.cq.wcm</groupId>
+	            <artifactId>cq-wcm-foundation</artifactId>
+	            <version>5.5.2</version>
+	            <scope>provided</scope>
+	        </dependency>
+			<dependency>
 				<groupId>com.day.cq</groupId>
 				<artifactId>cq-commons</artifactId>
 				<version>5.5.0</version>
