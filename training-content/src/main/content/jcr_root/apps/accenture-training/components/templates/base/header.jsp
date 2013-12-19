@@ -1,4 +1,4 @@
 <%@ include file="/libs/foundation/global.jsp" %>
 <header class="header">
-    <h1>HEADER</h1>
+    <cq:include path="logo" resourceType="accenture-training/components/logo"/>
 </header>

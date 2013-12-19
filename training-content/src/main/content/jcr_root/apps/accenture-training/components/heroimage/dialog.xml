@@ -6,16 +6,16 @@
     xtype="tabpanel">
     <items jcr:primaryType="cq:WidgetCollection">
         <image
-            jcr:primaryType="cq:Widget"
-            cropParameter="./imageCrop"
+            jcr:primaryType="cq:Widget"           
             ddGroups="[media]"
-            fileNameParameter="./fileName"
-            fileReferenceParameter="./fileReference"
+            fileNameParameter="./image/fileName"
+            fileReferenceParameter="./image/fileReference"
             mapParameter="./imageMap"
-            name="./file"
-            requestSuffix=".img.png"
-            rotateParameter="./imageRotate"
+            name="./image/file"
+            renditionSuffix="/_jcr_content/renditions/original"
+            requestSuffix="/thumbnail.img.png"
             title="Image"
+            type="Image"
             xtype="html5smartimage"/>
         <information
             jcr:primaryType="cq:Widget"
@@ -37,6 +37,12 @@
                     fieldLabel="Title Background"
                     name="titlecolor"
                     xtype="colorfield"/>
+                <imagerestype
+                    jcr:primaryType="cq:Widget"
+                    ignoreData="{Boolean}true"
+                    name="./image/sling:resourceType"
+                    value="foundation/components/image"
+                    xtype="hidden"/>
             </items>
         </information>
     </items>
