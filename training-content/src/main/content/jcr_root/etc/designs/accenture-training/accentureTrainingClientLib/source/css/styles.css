@@ -30,6 +30,7 @@ time, mark, audio, video {
 
 .header .logo {
 	float:left;
+	heigth: 100%;
 }
 
 .header .logo img {
@@ -46,4 +47,14 @@ footer {
     width: 100%;
     background-color: green;
     height: 50px;
+}
+
+.top_navigation {
+	float: left;
+	height: 100%;
+}
+
+.top_navigation nav div {
+	float: left;
+	height: 100%;
 }
